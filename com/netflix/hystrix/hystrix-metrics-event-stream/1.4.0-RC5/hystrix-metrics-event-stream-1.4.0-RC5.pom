@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.hystrix</groupId>
+  <artifactId>hystrix-metrics-event-stream</artifactId>
+  <version>1.4.0-RC5</version>
+  <name>hystrix-metrics-event-stream</name>
+  <description>hystrix-metrics-event-stream developed by Netflix</description>
+  <url>https://github.com/Netflix/hystrix</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>netflixgithub</id>
+      <name>Netflix Open Source Development</name>
+      <email>talent@netflix.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Netflix/hystrix/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git@github.com:Netflix/hystrix.git</connection>
+    <developerConnection>scm:git:git@github.com:Netflix/hystrix.git</developerConnection>
+    <url>scm:git:git@github.com:Netflix/hystrix.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.hystrix</groupId>
+      <artifactId>hystrix-core</artifactId>
+      <version>1.4.0-RC5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
